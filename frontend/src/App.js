@@ -1,0 +1,15 @@
+import './App.css';
+import Path from './routes';
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
+
+function App() {
+  return (
+    <>
+      <ToastContainer position="bottom-center" autoClose={3000} hideProgressBar newestOnTop={false} closeOnClick rtl={false} pauseOnFocusLoss Draggable pauseOnMove={false} theme="dark" />
+      <Path />
+    </>
+  );
+}
+
+export default App;
